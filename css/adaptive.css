@@ -1,0 +1,274 @@
+@media screen and (max-width: 1024px) {
+    .products-compositions {
+        padding: 100px 30px;
+    }
+
+    .composition-image {
+        width: 40px;
+        height: 40px;
+        padding: 0 3px;
+    }
+
+    .slider {
+        padding-bottom: 10px;
+    }
+
+    .specifications ul li {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .promo {
+        padding: 30px 20px;
+    }
+
+    .product-promo ul {
+        margin: 0 40px 35px 0;
+    }
+
+    .composition-btn {
+        margin: 0;
+    }
+
+    .carousel {
+        padding: 50px 0;
+    }
+
+    .slider {
+        height: 470px;
+    }
+
+    .slider .bx-prev {
+        position: absolute;
+        left: 60px;
+    }
+
+    .slider .bx-next {
+        position: absolute;
+        right: 60px;
+    }
+
+    .slider .bx-pager {
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .promo {
+        padding: 40px 0;
+        background-color: #98bdf5;
+    }
+
+    .bg-video {
+       display: none;
+
+    }
+
+    .products-promo h1 {
+        font-size: 42px;
+        line-height: 1;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .product-promo {
+        flex-direction: column;
+    }
+
+    .characteristic {
+        order: 2;
+    }
+
+    .product-promo ul {
+        margin: 25px 10px;
+    }
+
+    .product-promo ul li {
+        font-size: 18px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .products-compositions {
+        padding: 60px 30px;
+    }
+
+    .products-composition {
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+
+    .composition-image {
+        padding: 0;
+    }
+
+    .composition-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-composition-img img {
+        margin-bottom: 40px;
+    }
+
+    .carousel {
+        height: 350px;
+    }
+
+    .slider ul li img {
+        width: 100px;
+    }
+
+    .slider ul li p {
+        padding: 0;
+    }
+
+    .composition-text {
+        width: 300px;
+    }
+
+    .slider .bx-prev {
+        top: 330px;
+        left: 305px;
+    }
+
+    .slider .bx-next {
+        top: 330px;
+        right: 15px;
+    }
+
+    .slider .bx-pager {
+        bottom: -50px;
+    }
+
+    .promo-human {
+        flex-direction: column;
+    }
+
+    .promo-human p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .specifications ul {
+        flex-direction: column;
+    }
+
+    .specifications ul li {
+        margin: 0;
+    }
+
+    .order-products {
+        flex-direction: column;
+    }
+
+    .order-product{
+        margin: 25px 0;
+    }
+
+    .form{
+        align-items: center;
+    }
+
+    .error-input{
+        right: -85px;
+    }
+    .form:first-child .error-input{
+        right: -100px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .products-compositions{
+        padding: 40px 0;
+    }
+    .product-composition {
+        width: 320px;
+    }
+
+    .slider .bx-prev {
+        top: 365px;
+        left: 260px;
+    }
+
+    .slider .bx-next {
+        top: 365px;
+        right: 15px;
+    }
+
+    .promo-human-specifications{
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 321px) {
+    .products-composition{
+       width: 300px;
+    }
+    .product-composition{
+        width: 300px;
+    }
+
+    .composition{
+        width: 300px;
+    }
+
+    .composition-image{
+        width: 30px;
+        height: 30px;
+    }
+
+    .composition-image img{
+        width: 25px;
+    }
+
+    .composition-text{
+        width: 210px;
+    }
+
+    .carousel {
+        height: 410px;
+    }
+
+    .slider .bx-prev {
+        top: 405px;
+        left: 210px;
+    }
+
+    .slider .bx-next {
+        top: 405px;
+        right: 10px;
+    }
+
+    .promo-human{
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .specifications ul li{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 46px;
+    }
+
+    .form input{
+        width: 250px;
+    }
+
+    .btn-order{
+        width: 276px;
+    }
+}
+
+
+
