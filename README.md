@@ -59,11 +59,11 @@ LevelUp - современный адаптивный лендинг для пр
 
 ```bash
 git clone https://github.com/dron-olya7/TeamLead.git
-cd levelup-landing
 ```
 
 ### Запуск проекта
 
 Через live server
+
 
 
