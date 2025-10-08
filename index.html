@@ -1,200 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/adaptive.css">
-</head>
-<body>
-<section class="promo">
-    <div class="container">
-        <video autoplay muted loop class="bg-video">
-            <source src="video/blue-sky.mp4" type="video/mp4">
-        </video>
-        <div class="products-promo">
-            <h1>LevelUp</h1>
-            <div class="product-promo">
-                <div class="characteristic">
-                    <ul>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </li>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </li>
-                    </ul>
-                    <div class="button">
-                        <a href="#form" class="btn">Заказать</a>
-                    </div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LevelUp - инновационный продукт для улучшения здоровья"
+    />
+    <title>LevelUp - Продукт для улучшения здоровья</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
+    <!-- bxSlider CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">LevelUp</h1>
 
-                </div>
-                <div class="product-img">
-                    <img src="image/prod.png" alt=""/>
-                </div>
-            </div>
+        <!-- Бургер-кнопка -->
+        <div class="burger-menu" id="burgerMenu">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-    </div>
-</section>
-<section class="products-compositions">
-    <div class="container">
-        <div class="products-composition">
-            <div class="product-composition">
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="product-img product-composition-img">
-                <img src="image/prod.png" alt=""/>
-            </div>
-            <div class="product-composition">
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="composition">
-                    <div class="composition-image">
-                        <img src="image/rye.svg" alt="Рожь">
-                    </div>
-                    <div class="composition-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="composition-btn">
-            <a href="#form" class="btn">Заказать</a>
-        </div>
-    </div>
-</section>
-<section class="carousel">
-    <div class="container">
-        <div class="slider">
-            <ul>
-                <li>
-                    <img src="image/person1.jpeg" alt="">
-                    <span>Name</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi consectetur
-                        cupiditate
-                        dolores ea eius, eos ex exercitationem itaque iure molestiae molestias odit quibusdam sequi
-                        tempore ut
-                        voluptatem? Consequatur, facilis!</p>
-                </li>
-                <li>
-                    <img src="image/person2.jpeg" alt="">
-                    <span>Name</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi consectetur
-                        cupiditate
-                        dolores ea eius, eos ex exercitationem itaque iure molestiae molestias odit quibusdam sequi
-                        tempore ut
-                        voluptatem? Consequatur, facilis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-                        consequuntur ea excepturi expedita hic incidunt ipsam ipsum minima mollitia nam neque numquam
-                        pariatur perferendis tempora tenetur vel velit voluptate voluptates!</p>
-                </li>
-                <li>
-                    <img src="image/person3.jpeg" alt="">
-                    <span>Name</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi consectetur
-                        cupiditate
-                        dolores ea eius, eos ex exercitationem itaque iure molestiae molestias odit quibusdam sequi
-                        tempore ut
-                        voluptatem? Consequatur, facilis!</p>
-                </li>
+
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#composition">Состав</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#order-block">Заказать</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="promo">
+      <div class="container">
+        <video autoplay muted loop class="bg-video">
+          <source src="video/blue-sky.mp4" type="video/mp4" />
+          Ваш браузер не поддерживает видео.
+        </video>
+        <div class="promo-content">
+          <div class="promo-info">
+            <h2 class="promo-title">LevelUp - Ваш путь к совершенству</h2>
+            <ul class="promo-features">
+              <li class="feature-item">Улучшает общее состояние здоровья</li>
+              <li class="feature-item">Повышает энергетический уровень</li>
+              <li class="feature-item">
+                Способствует восстановлению организма
+              </li>
             </ul>
-        </div>
-    </div>
-</section>
-<section class="promo-human-specifications">
-    <div class="container">
-        <div class="promo-humans">
-            <div class="promo-human">
-                <img src="image/doctor.png" alt="human"/>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati fuga ipsum quod numquam quidem placeat quo earum
-                    quibusdam iste id sunt quaerat iure ipsa voluptatem, nostrum
-                    dolores. Ipsa, quidem reiciendis.
-                </p>
+            <div class="promo-actions">
+              <a href="#order" class="btn btn-primary btn-order-now"
+                >Заказать сейчас</a
+              >
             </div>
-            <div class="specifications">
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                </ul>
+          </div>
+          <div class="promo-image">
+            <img src="image/prod.png" alt="LevelUp продукт" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="composition" id="composition">
+      <div class="container">
+        <h2 class="section-title">Состав продукта</h2>
+        <div class="composition-content">
+          <div class="ingredients-left">
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 1</p>
             </div>
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 2</p>
+            </div>
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 3</p>
+            </div>
+          </div>
+
+          <div class="product-center">
+            <img
+              src="image/prod.png"
+              alt="LevelUp продукт"
+              class="product-image"
+            />
+          </div>
+
+          <div class="ingredients-right">
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 4</p>
+            </div>
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 5</p>
+            </div>
+            <div class="ingredient">
+              <div class="ingredient-icon">
+                <img src="image/rye.svg" alt="Натуральный компонент" />
+              </div>
+              <p class="ingredient-text">Натуральный ингредиент 6</p>
+            </div>
+          </div>
         </div>
-        <div class="specifications-btn">
-            <a href="#form" class="btn">Заказать</a>
+        <div class="composition-actions">
+          <a href="#order" class="btn btn-secondary">Заказать сейчас</a>
         </div>
-    </div>
-</section>
-<section class="order">
-    <div class="container">
-        <h2>LevelUp</h2>
-        <div class="countdown"></div>
-        <div class="order-products">
-            <div class="order-product">
-                <div class="products">
-                    <img src="image/prod.png" alt=""/>
-                    <div class="price">
-                        <div class="old-price">4 000 ₽</div>
-                        <div class="new-price">2 000 ₽</div>
-                    </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="section-title">Отзывы наших клиентов</h2>
+        <div class="reviews-slider">
+          <div class="slider">
+            <ul>
+              <li>
+                <div class="review-slide">
+                  <img
+                    src="image/person1.jpeg"
+                    alt="Алексей"
+                    class="review-photo"
+                  />
+                  <h3 class="review-name">Алексей</h3>
+                  <p class="review-text">
+                    Отличный продукт! Заметил улучшение самочувствия уже через
+                    неделю использования.
+                  </p>
                 </div>
-            </div>
-            <form class="form" id="form">
-                <label>Заполните данные для заказа</label>
-                <div class="error-input">Иван</div>
-                <input type="text" id="name" class="" placeholder="Ваше имя">
-                <div class="error-input">89997776655</div>
-                <input type="text" id="phone" class="" placeholder="89_________"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
-                <button class="btn btn-order" id="submit">Оформить заказ</button>
-            </form>
+              </li>
+              <li>
+                <div class="review-slide">
+                  <img
+                    src="image/person2.jpeg"
+                    alt="Мария"
+                    class="review-photo"
+                  />
+                  <h3 class="review-name">Сергей</h3>
+                  <p class="review-text">
+                    Пользуюсь уже месяц, чувствую прилив энергии и бодрости
+                    throughout the day.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="review-slide">
+                  <img
+                    src="image/person3.jpeg"
+                    alt="Дмитрий"
+                    class="review-photo"
+                  />
+                  <h3 class="review-name">Дмитрий</h3>
+                  <p class="review-text">
+                    Рекомендую всем! Качество сна улучшилось, появилось больше
+                    сил для работы.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="promo-description" id="promo-description">
+      <div class="container">
+        <div class="description-content">
+          <div class="description-image">
+            <img src="image/doctor.png" alt="Рекомендация специалиста" />
+          </div>
+          <div class="description-text">
+            <h2>Рекомендовано специалистами</h2>
+            <p>
+              Наш продукт разработан при участии ведущих специалистов в области
+              здоровья и wellness.
+            </p>
+            <ul class="benefits-list">
+              <li>100% натуральный состав</li>
+              <li>Без побочных эффектов</li>
+              <li>Доказанная эффективность</li>
+            </ul>
+          </div>
+        </div>
+        <div class="description-actions">
+          <a href="#order" class="btn btn-primary">Заказать сейчас</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order-block">
+      <div class="container">
+        <h2 class="section-title">LevelUp</h2>
+        <div class="timer" id="countdown">
+          <div class="timer-item">
+            <span class="timer-number" id="minutes">30</span>
+            <span class="timer-label">минут</span>
+          </div>
+          <div class="timer-item">
+            <span class="timer-number" id="seconds">00</span>
+            <span class="timer-label">секунд</span>
+          </div>
+        </div>
+
+        <div class="order-content">
+          <div class="product-card">
+            <img
+              src="image/prod.png"
+              alt="LevelUp продукт"
+              class="product-image"
+            />
+            <div class="price-info">
+              <span class="old-price">4 000 ₽</span>
+              <span class="new-price">2 000 ₽</span>
+            </div>
+          </div>
+
+          <form class="order-form" id="form">
+            <h3>Оформите заказ</h3>
+
+            <div class="form-group">
+              <label for="name" class="form-label">Ваше имя</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="Введите ваше имя"
+                required
+              />
+              <div class="error-input">Пожалуйста, введите ваше имя</div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Номер телефона</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="form-input"
+                placeholder="8 (999) 999-99-99"
+                required
+              />
+              <div class="error-input">Пожалуйста, введите номер телефона</div>
+            </div>
+
+            <button type="submit" class="btn btn-order" id="submit">
+              Оформить заказ
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 LevelUp. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <div class="loader">
+      <div class="loader-spinner"></div>
     </div>
-</section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
-<script src="js/time.js"></script>
-<script src="js/slide.js"></script>
-<script src="js/form.js"></script>
-</body>
+
+    <!-- Попап для быстрого заказа -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Быстрый заказ LevelUp</h3>
+
+        <div class="modal-product">
+          <img src="image/prod.png" alt="LevelUp продукт" />
+          <div class="modal-price">
+            <span class="old-price">4 000 ₽</span>
+            <span class="new-price">2 000 ₽</span>
+          </div>
+        </div>
+
+        <form class="quick-order-form" id="quickForm">
+          <div class="form-group">
+            <input type="text" id="quickName" placeholder="Ваше имя" required />
+            <div class="error-message-popup" id="quickNameError">
+              Пожалуйста, введите ваше имя
+            </div>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="tel"
+              id="quickPhone"
+              placeholder="8 (999) 999-99-99"
+              required
+            />
+            <div class="error-message-popup" id="quickPhoneError">
+              Пожалуйста, введите корректный номер телефона
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary btn-popup"
+            id="btn-popup"
+          >
+            Заказать со скидкой
+          </button>
+
+          <div class="timer-small">
+            <span>До конца акции:</span>
+            <span class="countdown-small">30:00</span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Стрелка "Наверх" -->
+    <div class="scroll-to-top" id="scrollToTop">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 20L12 4M12 4L5 11M12 4L19 11"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+
+
+    <!-- ПРАВИЛЬНОЕ ПОДКЛЮЧЕНИЕ СКРИПТОВ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/scroll.js"></script>
+  </body>
 </html>
